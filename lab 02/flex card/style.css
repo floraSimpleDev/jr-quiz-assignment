@@ -1,0 +1,55 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto");
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+h1 {
+  color: #4181ee;
+  display: flex;
+  justify-content: center;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+}
+.container .wrapper {
+  display: flex;
+  flex-wrap: wrap;
+}
+.container .wrapper .card {
+  max-width: 18.75rem;
+  min-height: 15.625rem;
+  background-color: aquamarine;
+  box-sizing: border-box;
+  color: #fff;
+  padding: 1.875rem;
+  border-radius: 0.1875rem;
+  margin: 1.25rem;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
+}
+.container .wrapper .card:nth-child(2) {
+  background-color: #4181ee;
+}
+.container .wrapper .card:last-child {
+  background-color: #673ab7;
+}
+.container .wrapper .card_image img {
+  width: 100%;
+}
+.container .wrapper .card_info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.container .wrapper .card_price {
+  background-color: #555;
+  color: #fff;
+  border: none;
+  border-radius: 1.25rem;
+  padding: 0.3125rem 1.25rem;
+  cursor: pointer;
+}
+.container .wrapper .card:hover {
+  transform: translateY(-0.5rem);
+}/*# sourceMappingURL=style.css.map */
